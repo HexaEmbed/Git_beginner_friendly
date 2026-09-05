@@ -2,3 +2,6 @@
 *.exe
 *.o
 *.out
+# Ignore build folder inside src
+/src/build/
+/.vscode/
