@@ -13,3 +13,8 @@ build/hello.o: src/hello.c include/hello.h
 
 clean:
 	rm -rf build/*.o build/hello
+
+test: hello
+	$(CC) $(CFLAGS) -Iinclude -o build/test_hello tests/test_hello.c build/hello.o
+	./build/test_hello
+
