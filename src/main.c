@@ -1,4 +1,13 @@
 #include <stdio.h>
+#include "hello.h"
+
+int main() {
+    print_hello();
+    return 0;
+}
+
+/*
+#include <stdio.h>
 #include <stdlib.h>
 
 #define SET_BIT(x, y) ((x) |= (1<<y))
@@ -17,3 +26,4 @@ int main(void)
     printf("END: main\n");
     return EXIT_SUCCESS;
 }
+*/
